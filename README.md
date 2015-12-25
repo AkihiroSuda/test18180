@@ -1,8 +1,10 @@
 # test18180: Checker for docker/docker#18180 (container hangs up)
 
+[Available at Docker Hub](https://hub.docker.com/r/akihirosuda/test18180/)
+
 [linux@296291cd](https://github.com/torvalds/linux/commit/296291cd) caused a regression [docker/docker#18180](https://github.com/docker/docker/issues/18180).
 
-This container check whether [docker/docker#18180](https://github.com/docker/docker/issues/18180) has been resolved.
+This container checks whether [docker/docker#18180](https://github.com/docker/docker/issues/18180) has been resolved.
     
     $ docker run -it --rm akihirosuda/test18180
     [INFO] Checking whether hitting docker#18180.
@@ -12,4 +14,4 @@ This container check whether [docker/docker#18180](https://github.com/docker/doc
     [INFO] OK. sendfile(2) is killable.
     [INFO] PERFECT!
 
-Note that you won't be able to see the above "PERFECT" output with any kernel at the moment.. (Dec 25, 2015)
+Note that you won't be able to see the above "PERFECT" output with any kernel (if you are using AUFS) at the moment.. (Dec 25, 2015)
