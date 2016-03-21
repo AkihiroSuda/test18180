@@ -43,4 +43,4 @@ All the major distros have already fixed the issue: https://github.com/docker/do
 ## Contributors
 
  * [@AkihiroSuda](https://github.com/AkihiroSuda)
- * Andreas Greve <greve at ls8 dot cs dot tu-dortmund dot de>: [commit 0d560466c79dbdb62e264637894ca6dd2dff1beb](https://github.com/AkihiroSuda/test18180/commit/0d560466c79dbdb62e264637894ca6dd2dff1beb)
+ * Andreas Greve &lt;greve at ls8 dot cs dot tu-dortmund dot de&gt;: [commit 0d560466c79dbdb62e264637894ca6dd2dff1beb](https://github.com/AkihiroSuda/test18180/commit/0d560466c79dbdb62e264637894ca6dd2dff1beb)
