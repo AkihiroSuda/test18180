@@ -39,3 +39,8 @@ All the major distros have already fixed the issue: https://github.com/docker/do
     [INFO] Checking whether sendfile(2) is killable.
     [INFO] If the container hangs up here, you are still facing the bug that linux@296291cd tried to fix.
 	(hangs up here)
+
+## Contributors
+
+ * [@AkihiroSuda](https://github.com/AkihiroSuda)
+ * Andreas Greve <greve at ls8 dot cs dot tu-dortmund dot de>: [commit 0d560466c79dbdb62e264637894ca6dd2dff1beb](https://github.com/AkihiroSuda/test18180/commit/0d560466c79dbdb62e264637894ca6dd2dff1beb)
